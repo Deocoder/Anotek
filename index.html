@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anotek energy solution</title>
+    <link rel="shortcut icon" href="img/yu.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="img/yu.jpg" alt="" width="125px" /></a>
+      </div>
+      <nav>
+        <ul id="menuitems">
+          <li><a href="">HOME</a></li>
+          <li><a href="">SERVICES</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">PROJECTS</a></li>
+        </ul>
+      </nav>
+      <img
+        src="img/menu.png"
+        class="menu"
+        width="25px"
+        onclick="menutoggle()"
+      />
+    </div>
+
+    <div class="ANIMATED-BG">
+      <div class="first-text">
+        <h1>Best <span>Generator</span> services for your family</h1>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form action="">
+        <input type="text" placeholder="Name" />
+        <input type="email" name="" id="" placeholder="Email" />
+        <input type="number" placeholder="Number" />
+        <input type="date" name="" id="" placeholder="Date" />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <div class="about-con">
+      <div class="row">
+        <div class="col-2">
+          <div>
+            <img src="img/about-9.png" alt="" />
+          </div>
+        </div>
+        <div class="col-2 text">
+          <h5>ABOUT US</h5>
+          <h2>Outstanding Residential & Commercial Services</h2>
+          <p>
+            Lorem ipsum dolor sit amet lacus posuere class. Ridiculus ex enim
+            quisque urna lorem eget taciti donec proin nibh. Nascetur nulla
+            vehicula odio finibus habitasse.
+          </p>
+          <ul>
+            <li>
+              Lorem ipsum dolor sit amet ac ultrices. Consequat laoreet netus
+              facilisis adipiscing maximus sem penatibus eros praesent lobortis.
+            </li>
+            <li>
+              Euismod curabitur sit urna tempor rutrum habitant rhoncus pede
+              scelerisque consequat letius.
+            </li>
+            <li>
+              Fermentum faucibus hac mus proin aptent ut ad accumsan.
+              Consectetur mauris laoreet lobortis pellentesque non amet tempus
+              convallis volutpat. Potenti sed convallis placerat facilisi
+              interdum quis pellentesque sapien.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-con text">
+      <h5>Services</h5>
+      <h2>Outstanding Residential & Commercial <br> Services</h2>
+      <div class="row">
+        <div class="col-3">
+          <img src="img/service-27.jpg" alt="">
+          
+          <br>
+          <div class="service-text">
+            <h3>maintence of power and earth movng machine</h3>
+            <p>Lorem ipsum dolor sit amet praesent tempus nostra auctor magna vel.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <img src="img/images (13).jpg" alt="">
+          <br>
+          <div class="service-text">
+            <h3>hiring of equipments</h3>
+            <p>Lorem ipsum dolor sit amet praesent tempus nostra auctor magna vel.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <img src="img/american-public-power-association-VuR4oHZ3ucc-unsplash.jpg" alt="">
+          
+          <br>
+          <div class="service-text">
+            <h3>supply and contracts on generators</h3>
+            <p>Lorem ipsum dolor sit amet praesent tempus nostra auctor magna vel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-con">
+      <div class="mow">
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-user"></i></p>
+            <h2>11+</h2>
+            <p>Partners</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-check"></i></p>
+            <h2>4M+</h2>
+            <p>Projects</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-smile-o "></i></p>
+            <h2>2M+</h2>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <p><i class="fa fa-coffee"></i></p>
+            <h2>1M+</h2>
+            <p>Meetings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="team text">
+      <h5>OUR TEAM</h5>
+      <h2>Our Professional Staffs</h2>
+      <div class="con">
+        <div class="con-img">
+          <!-- <img src="img/avater.png" alt=""> -->
+          <img src="img/shape-165.png" alt="">
+        </div>
+        <div class="overlay">
+          <!-- <img src="img/shape-165.png" alt=""> -->
+          <img src="img/avater.png" alt="">
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    var menuitems = document.getElementById("menuitems")
+
+    menuitems.style.maxHeight = "0px"
+
+    function menutoggle() {
+      if (menuitems.style.maxHeight == "0px") {
+        menuitems.style.maxHeight = "200px"
+      } else {
+        menuitems.style.maxHeight = "0px"
+      }
+    }
+  </script>
+</html>
